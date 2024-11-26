@@ -38,6 +38,7 @@ def joks():
 
 @app.route("/jschats/suutiit")
 def suutiit():
+    sanemtais = request.json
     return jsonify("OK")
 
 if __name__ == '__main__':
